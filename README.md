@@ -32,8 +32,7 @@ In Python
   
 </h4>
 
-
-**Term Frequency (TF) Formula:**  
+## Term Frequency (TF) Formula  
 \[
 TF(t) = \frac{f_t}{N}
 \]  
@@ -41,11 +40,12 @@ where:
 - \( f_t \) = Number of times term \( t \) appears in the document  
 - \( N \) = Total number of terms in the document  
 
-**Inverse Document Frequency (IDF) Formula:**  
+## Inverse Document Frequency (IDF) Formula  
 \[
 IDF(t) = \log \left(\frac{N_d}{df_t} + 1\right)
 \]  
 where:  
 - \( N_d \) = Total number of documents  
 - \( df_t \) = Number of documents containing term \( t \)
+
 
